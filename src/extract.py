@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from pathlib import Path
 
-# ----- Configuration -----
+# config
 BASE_URL = "https://ckan0.cf.opendata.inter.prod-toronto.ca"
 
 DATASETS = {
@@ -15,7 +15,6 @@ RAW_DIR = Path("../data/raw")
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
 
-# ----- Functions -----
 def get_package(package_id):
     url = BASE_URL + "/api/3/action/package_show"
     response = requests.get(url, params={"id": package_id})
@@ -84,7 +83,6 @@ def download_dataset(mode, package_id):
             print(f"Saved to {file_path}")
 
 
-# ----- Main -----
 if __name__ == "__main__":
     for mode, package_id in DATASETS.items():
         download_dataset(mode, package_id)
