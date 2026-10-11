@@ -11,7 +11,7 @@ DATASETS = {
     "subway": "ttc-subway-delay-data"
 }
 
-RAW_DIR = Path("../data/raw")
+RAW_DIR = Path("./data")
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
 
