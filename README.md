@@ -8,7 +8,7 @@
 * **[City of Toronto Open Data Portal](https://open.toronto.ca/)**: Ingested **140,000+ TTC transit records** directly from the public Open Data REST API.
 
 ## Technologies Used
-* **Python (Requests, Pandas, Ftfy)**
+* **Python (Requests, Pandas)**
 * **SQL (SQLite)**
 * **Power BI (Power Query, DAX)**
 
