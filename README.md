@@ -19,18 +19,8 @@
 
 ## Key Features
 * Automated extract, transform, and load (ETL) live transit metrics into a local database.
-* Resolve critical text-encoding anomalies (such as broken em-dashes and corrupted characters) with `Ftfy`.
+* Resolve critical text-encoding anomalies (such as broken em-dashes and corrupted characters) using Power Query.
 * Structured reusable SQL views within an SQLite database.
 * Multi-page Power BI dashboard.
 
-## Results
-* Transformed raw REST API streams into clean operational KPIs.
-* Isolated delay hot-spots.
-
-## Usage Guide
-Ensure you have **Power BI Desktop** installed.
-* Launch the tracking interface by opening the file:
-  ```text
-  dashboards/ttc_delay_analytics.pbix
-  ```
 
