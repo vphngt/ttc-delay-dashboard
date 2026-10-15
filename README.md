@@ -10,7 +10,7 @@
 ![Dashboard Page 4](powerbi/TTC_Dashboard_page-0004.jpg)
 
 ## Data Source
-* **[City of Toronto Open Data Portal](https://open.toronto.ca/)**: Ingested **140,000+ TTC transit records** directly from the public Open Data REST API.
+* **[City of Toronto Open Data Portal](https://open.toronto.ca/)**: Ingested **170,000+ TTC transit records** (as of Oct 2026) directly from the public Open Data REST API.
 
 ## Technologies Used
 * **Python (Requests, Pandas)**
